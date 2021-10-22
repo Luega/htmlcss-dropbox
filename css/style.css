@@ -38,7 +38,7 @@ html {
 
 /* CLEARFIX */
 .clearfix {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }
@@ -53,3 +53,46 @@ html {
     filter: opacity(75%);
 }
 /* /GENERAL CLASSES */
+/* HEADER */
+header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+/* LOGO */
+.logo {
+    margin: 0 2em;
+}
+.logo img {
+    vertical-align: middle;
+}
+/* /LOGO */
+/* NAV-BAR */
+.left-menu,
+.right-menu {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+nav a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    vertical-align: middle;
+}
+/* BUTTON */
+.short-button {
+    width: 4.5em;
+    height: 2em;
+    margin: 0 2em;
+}
+/* /BUTTON */
+/* /NAV-BAR */
+/* /HEADER */
+
+/* MAIN */
