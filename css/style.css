@@ -1,10 +1,55 @@
+/* GENERAL */
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box; 
+   box-sizing: border-box;
 }
-
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
 }
+/* /GENERAL */
+/* GENERAL CLASSES */
+/* WIDTH */
+.width-80 {
+    width: 80%;
+}
+.width-90 {
+    width: 90%;
+}
+
+/* MARGIN */
+.margin-dxsxauto {
+    margin: 0 auto;
+}
+
+/* BACKGROUND */
+.bg-second {
+    background-color: #B4D0E7;
+}
+
+/* FLOAT */
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+/* CLEARFIX */
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* BUTTON */
+.button-blue {
+    color: white;
+    background-color: #0061FF;
+    border: none;
+}
+.button-blue:hover {
+    filter: opacity(75%);
+}
+/* /GENERAL CLASSES */
