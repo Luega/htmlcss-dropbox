@@ -14,20 +14,13 @@ html {
 .width-80 {
     width: 80%;
 }
-.width-90 {
-    width: 90%;
+.width-85 {
+    width: 85%;
 }
-
-/* MARGIN */
-.margin-dxsxauto {
-    margin: 0 auto;
-}
-
 /* BACKGROUND */
 .bg-second {
     background-color: #B4D0E7;
 }
-
 /* FLOAT */
 .float-left {
     float: left;
@@ -35,22 +28,29 @@ html {
 .float-right {
     float: right;
 }
-
 /* CLEARFIX */
 .clearfix {
     content: "";
     display: table;
     clear: both;
 }
-
 /* BUTTON */
 .button-blue {
     color: white;
     background-color: #0061FF;
     border: none;
 }
+.button-blue a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 .button-blue:hover {
     filter: opacity(75%);
+}
+.large-button {
+    width: 16em;
+    height: 3em;
 }
 /* /GENERAL CLASSES */
 /* HEADER */
@@ -58,6 +58,7 @@ header {
     width: 100%;
     height: 70px;
     line-height: 70px;
+    background-color: white;
     position: fixed;
 }
 /* LOGO */
@@ -86,7 +87,6 @@ nav a {
     text-decoration: none;
     vertical-align: middle;
 }
-
 nav li:hover {
     border-bottom: 2px solid black;
 }
@@ -99,5 +99,47 @@ nav li:hover {
 /* /BUTTON */
 /* /NAV-BAR */
 /* /HEADER */
-
 /* MAIN */
+/* JUMBOTRON */
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+.jumbotron h1 {
+    font-size: 4em;
+    font-weight: 700;
+    margin: 1em auto 0.5em auto;
+}
+.box-jumbo {
+    margin: 0 auto;
+}
+.box-jumbo .texts-jumbo {
+    width: 30%;
+    display: inline-block;
+}
+.jumbotron p {
+    font-weight: bold;
+    padding-right: 3em;
+}
+.box-jumbo button {
+    margin-top: 2em;
+}
+.box-jumbo h6 {
+    margin-top: 1em;
+}
+.fas {
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+.jumbotron .img-jumbo {
+    width: 69%;
+    display: inline-block;
+}
+.img-jumbo img {
+    width: 100%;
+}
+/* /JUMBOTRON */
+/* /MAIN */
