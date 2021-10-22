@@ -7,12 +7,13 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 /* /GENERAL */
 /* GENERAL CLASSES */
 /* WIDTH */
-.width-80 {
-    width: 80%;
+.width-70 {
+    width: 70%;
 }
 .width-85 {
     width: 85%;
@@ -80,6 +81,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 0 1em;
+    border-bottom: 2px solid white;
 }
 nav a {
     color: black;
@@ -135,11 +137,43 @@ nav li:hover {
     margin-top: 1em;
 }
 .jumbotron .img-jumbo {
-    width: 69%;
+    width: 70%;
     display: inline-block;
 }
 .img-jumbo img {
     width: 100%;
 }
 /* /JUMBOTRON */
+/* DROPBOX-PLAN */
+#dropbox-plan {
+    padding-top: 14em;
+}
+/* TITLE */
+#dropbox-plan h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 1em auto 1em auto;
+}
+/* BOX-RADIO */
+#dropbox-plan .box-radio {
+    margin: 1em auto 2em auto;
+}
+#dropbox-plan .box-radio input:last-child {
+    margin-left: 1em;
+}
+/* BOX-COLUMNS */
+#dropbox-plan .box-columns {
+    height: 150vh;
+    margin: 0 auto;
+}
+#dropbox-plan .column {
+    width: calc(100% / 3 - 2em);
+    height: 95%;
+    border: 1px solid lightgray;
+}
+#dropbox-plan .column:nth-child(2) {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+/* /DROPBOX-PLAN */
 /* /MAIN */
