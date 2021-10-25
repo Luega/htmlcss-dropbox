@@ -143,23 +143,23 @@ nav li:hover {
     margin-bottom: 3em
 }
 .jumbotron .img-jumbo {
-    width: 80%;
-    height: 65%;
+    width: 70%;
+    height: 60%;
     object-fit: contain;
     position: absolute;
-    top: 49%;
-    left: 25%;
+    top: 50%;
+    left: 30%;
 }
 /* /JUMBOTRON */
 /* DROPBOX-PLAN */
 #dropbox-plan {
-    padding-top: 14em;
+    padding-top: 10em;
 }
 /* TITLE */
 #dropbox-plan h1 {
     font-size: 2.5em;
     font-weight: bold;
-    margin: 1em auto 1em auto;
+    margin: 0.5em auto 1em auto;
 }
 /* BOX-RADIO */
 #dropbox-plan .box-radio {
@@ -225,14 +225,34 @@ nav li:hover {
     color: rgb(0, 97 ,255);
 }
 /* SUMMARY-OF-PLAN */
+.summary-of-plan {
+    padding-left: 1em;
+}
 .summary-of-plan h3 {
-    padding-left: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 .summary-of-plan ul {
     list-style: none;
 }
 .summary-of-plan li {
-    padding: 0 1.5em 1em 1.5em;
+    padding-bottom: 1em;
 }
+/* ENTERPRISE */
+.box-content {
+    padding: 1.5em;
+}
+.enterprise {
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+.enterprise .texts div {
+    line-height: 3em;
+    
+}
+.enterprise .texts .sub {
+    font-weight: bold;
+}
+
 /* /DROPBOX-PLAN */
 /* /MAIN */
