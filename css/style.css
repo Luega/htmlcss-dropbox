@@ -259,4 +259,31 @@ nav li:hover {
     width: 26em;
 }
 /* /DROPBOX-PLAN */
+/* CTA-FIND-PARTNER */
+#cta-find-partner .container-partner {
+    margin: 6em auto 6em auto;
+}
+.container-partner img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    padding: 3em;
+}
+#cta-find-partner .texts-partner {
+    width: 40%;
+    margin-top: 6em;
+}
+.texts-partner h2 {
+    font-size: 2em;
+}
+.texts-partner p {
+    font-size: 1em;
+    margin: 2em 0 2em 0;
+    line-height: 2em;
+}
+.texts-partner button {
+    padding: 0.5em;
+    background-color: white;
+}
+/* /CTA-FIND-PARTNER */
 /* /MAIN */
