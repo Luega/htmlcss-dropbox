@@ -61,6 +61,9 @@ header {
     line-height: 70px;
     background-color: white;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 /* LOGO */
 .logo {
@@ -105,11 +108,11 @@ nav li:hover {
 /* JUMBOTRON */
 .jumbotron {
     width: 100%;
-    height: 100vh;
     padding-top: 70px;
+    position: relative;
 }
 .jumbotron h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     font-weight: 700;
     margin: 1em auto 0.5em auto;
 }
@@ -122,7 +125,6 @@ nav li:hover {
 }
 .jumbotron p {
     font-weight: bold;
-    padding-right: 3em;
 }
 .box-jumbo button {
     margin-top: 2em;
@@ -135,13 +137,15 @@ nav li:hover {
     font-size: 2em;
     font-weight: bolder;
     margin-top: 1em;
+    margin-bottom: 3em
 }
 .jumbotron .img-jumbo {
-    width: 70%;
-    display: inline-block;
-}
-.img-jumbo img {
-    width: 100%;
+    width: 80%;
+    height: 65%;
+    object-fit: contain;
+    position: absolute;
+    top: 49%;
+    left: 25%;
 }
 /* /JUMBOTRON */
 /* DROPBOX-PLAN */
@@ -175,5 +179,13 @@ nav li:hover {
     margin-left: 3em;
     margin-right: 3em;
 }
+/* COLUMN */
+/* TYPE OF USER */
+.type-of-user {
+    text-align: center;
+    line-height: 2.5em;
+    border-bottom: 1px solid lightgray;
+}
+/* OFFERT TITLE AND PRICE */
 /* /DROPBOX-PLAN */
 /* /MAIN */
