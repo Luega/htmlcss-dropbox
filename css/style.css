@@ -47,6 +47,7 @@ html {
 }
 .button-blue a {
     color: white;
+    font-size: 1em;
     text-decoration: none;
 }
 .button-blue:hover {
@@ -240,6 +241,7 @@ nav li:hover {
 }
 /* ENTERPRISE */
 .box-content {
+    width: 100%;
     padding: 1.5em;
 }
 .enterprise {
@@ -253,6 +255,8 @@ nav li:hover {
 .enterprise .texts .sub {
     font-weight: bold;
 }
-
+.enterprise button {
+    width: 26em;
+}
 /* /DROPBOX-PLAN */
 /* /MAIN */
