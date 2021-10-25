@@ -267,7 +267,7 @@ nav li:hover {
     width: 60%;
     height: 60%;
     object-fit: contain;
-    padding: 3em;
+    padding: 3em 3em 3em 0;
 }
 #cta-find-partner .texts-partner {
     width: 40%;
@@ -277,7 +277,7 @@ nav li:hover {
     font-size: 2em;
 }
 .texts-partner p {
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 2em 0 2em 0;
     line-height: 2em;
 }
@@ -286,4 +286,33 @@ nav li:hover {
     background-color: white;
 }
 /* /CTA-FIND-PARTNER */
+/* DROPBOX-FUNCTIONALITY */
+.container-funct {
+    margin: 0 auto;
+}
+.container-funct h2 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+.container-funct .operation{
+    width: calc(100% / 3);
+    padding: 0 4em 8em 0;
+}
+.operation img {
+    width: 100%;
+    height: 40%;
+    object-fit: contain;
+}
+.operation h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.operation p {
+    font-size: 1.2em;
+}
+/* /DROPBOX-FUNCTIONALITY */
+/* DROPBOX-CUSTOMERS */
+
+/* /DROPBOX-CUSTOMERS */
 /* /MAIN */
