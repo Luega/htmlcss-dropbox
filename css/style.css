@@ -18,6 +18,10 @@ html {
 .width-85 {
     width: 85%;
 }
+/* FONT */
+.font-size-base {
+    font-size: 0.8em;
+}
 /* BACKGROUND */
 .bg-second {
     background-color: #B4D0E7;
@@ -43,7 +47,6 @@ html {
 }
 .button-blue a {
     color: white;
-    font-weight: bold;
     text-decoration: none;
 }
 .button-blue:hover {
@@ -51,7 +54,7 @@ html {
 }
 .large-button {
     width: 16em;
-    height: 3em;
+    height: 2em;
 }
 /* /GENERAL CLASSES */
 /* HEADER */
@@ -180,12 +183,56 @@ nav li:hover {
     margin-right: 3em;
 }
 /* COLUMN */
-/* TYPE OF USER */
+/* TYPE-OF-USER */
 .type-of-user {
     text-align: center;
     line-height: 2.5em;
     border-bottom: 1px solid lightgray;
 }
-/* OFFERT TITLE AND PRICE */
+/* OFFERT-TITLE-AND-PRICE */
+.title-price {
+    padding: 1.5em;
+    margin-bottom: 1em;
+    line-height: 2em;
+}
+.title-price h2 {
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+.title-price .buy-option {
+    color: grey;
+}
+/* FEATURES-PLAN */
+.features-plan ul {
+    list-style: none;
+}
+.features-plan li {
+    padding: 0 1.5em 1em 1.5em;
+}
+/* CALL-TO-ACTION */
+.call-to-action-plan button {
+    width: 90%;
+    margin: 2em auto 1.5em auto;
+    display: block;
+}
+.call-to-action-plan .underline {
+    margin-left: 1.5em;
+    padding-bottom: 2em;
+    display: inline-block;
+    border-bottom: 1px solid lightgrey;
+}
+.call-to-action-plan .buy-now {
+    color: rgb(0, 97 ,255);
+}
+/* SUMMARY-OF-PLAN */
+.summary-of-plan h3 {
+    padding-left: 1.5em;
+}
+.summary-of-plan ul {
+    list-style: none;
+}
+.summary-of-plan li {
+    padding: 0 1.5em 1em 1.5em;
+}
 /* /DROPBOX-PLAN */
 /* /MAIN */
