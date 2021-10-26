@@ -175,7 +175,7 @@ nav li:hover {
 }
 #dropbox-plan .column {
     width: calc(100% / 3 - 2em);
-    min-height: 100vh;
+    min-height: 120vh;
     border: 1px solid lightgray;
     margin-bottom: 4em;
 }
@@ -255,6 +255,14 @@ nav li:hover {
 .summary-of-plan li {
     padding-bottom: 1em;
 }
+.summary-of-plan li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 800;
+    font-size: 1em;
+    padding-right: 0.5em;
+    color: rgb(0, 97 ,255);
+}
 /* ENTERPRISE */
 .box-content {
     width: 100%;
@@ -277,7 +285,7 @@ nav li:hover {
 /* /DROPBOX-PLAN */
 /* CTA-FIND-PARTNER */
 #cta-find-partner .container-partner {
-    margin: 6em auto 6em auto;
+    margin: 8em auto 6em auto;
 }
 .container-partner img {
     width: 60%;
