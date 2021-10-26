@@ -378,5 +378,25 @@ nav li:hover {
 .customer.clear-channel {
     background-color: rgb(255,216,48);
 }
+/* MIDDLE-BOX */
+.details-customer .box-logo::after {
+    content: "";
+    width: 3.5em;
+    border: 1px solid lightgray;
+    display: block;
+    margin-left: 3em;
+}
+.details-customer img {
+    width: 25%;
+    object-fit: contain;
+    margin: 3em 0 1.5em 3em;
+}
+.details-customer .box-description {
+    padding: 3em;
+}
+.details-customer p {
+    margin-bottom: 2em;
+}
+
 /* /DROPBOX-CUSTOMERS */
 /* /MAIN */
