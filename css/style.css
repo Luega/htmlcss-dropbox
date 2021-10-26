@@ -452,5 +452,55 @@ nav li:hover {
 /* /FAQ */
 /* /MAIN */
 /* FOOTER */
-
+footer {
+    color: white;
+    background-color: black;
+}
+footer .container {
+    margin: 0 auto;
+}
+footer .box-ul {
+    width: 100%;
+    padding: 4em 0 5em 0;
+}
+footer .column-footer {
+    width: calc(100% / 5);
+}
+.column-footer h4 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+footer ul {
+    list-style: none;
+}
+footer li a {
+    color: white;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+footer .italian {
+    margin-top: 1em;
+    display: inline-block;
+}
+footer .language i {
+    color: grey;
+}
+footer .fa-globe-americas {
+    font-size: 1em;
+}
+footer .fa-caret-up {
+    font-size: 0.8em;
+}
+footer .language a {
+    color: grey;
+    font-size: 0.6em;
+    text-decoration: none;
+}
+footer .language::before {
+    content: "";
+    width: 5em;
+    border: 1px solid gray;
+    border-width: thin;
+    display: block;
+}
 /* /FOOTER */
