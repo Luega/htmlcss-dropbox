@@ -171,13 +171,13 @@ nav li:hover {
 }
 /* BOX-COLUMNS */
 #dropbox-plan .box-columns {
-    height: 150vh;
     margin: 0 auto;
 }
 #dropbox-plan .column {
     width: calc(100% / 3 - 2em);
-    height: 95%;
+    min-height: 100vh;
     border: 1px solid lightgray;
+    margin-bottom: 4em;
 }
 #dropbox-plan .column:nth-child(2) {
     margin-left: 3em;
@@ -209,9 +209,13 @@ nav li:hover {
 }
 .features-plan li {
     width: 100%;
-    padding: 0 1.5em 1em 1.5em;
+    padding: 1em 1.5em 1em 1.5em;
 }
 .features-plan .fa-pencil-alt {
+    font-size: 1em;
+    margin: 0;
+}
+.features-plan .fa-user-plus {
     font-size: 1em;
     margin: 0;
 }
@@ -220,6 +224,7 @@ nav li:hover {
 }
 .features-text {
     width: 95%;
+    padding-left: 0.5em;
 }
 /* CALL-TO-ACTION */
 .call-to-action-plan button {
