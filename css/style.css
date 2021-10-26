@@ -208,7 +208,18 @@ nav li:hover {
     list-style: none;
 }
 .features-plan li {
+    width: 100%;
     padding: 0 1.5em 1em 1.5em;
+}
+.features-plan .fa-pencil-alt {
+    font-size: 1em;
+    margin: 0;
+}
+.features-icon {
+    width: 5%;
+}
+.features-text {
+    width: 95%;
 }
 /* CALL-TO-ACTION */
 .call-to-action-plan button {
@@ -320,6 +331,7 @@ nav li:hover {
     width: 50%;
     font-size: 2.5em;
     font-weight: bolder;
+    margin-top: 2em;
 }
 .titles-customer a {
     color: rgb(0, 97 ,255);
