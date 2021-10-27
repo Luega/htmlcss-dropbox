@@ -96,7 +96,7 @@ nav a {
     vertical-align: middle;
     padding-bottom: 1.3em;
 }
-nav a:hover {
+nav .sub:hover {
     border-bottom: 2px solid black;
 }
 .li-supporto {
@@ -106,8 +106,9 @@ nav a:hover {
 .ul-supporto {
     width: 300%;
     line-height: 2em;
-    position: absolute;
     background-color: white;
+    box-shadow: -1px 1px 5px black;
+    position: absolute;
     display: none;
 }
 .ul-supporto ul {
@@ -120,7 +121,6 @@ nav a:hover {
 }
 .li-supporto:hover .ul-supporto {
     display: block;
-
 }
 .ul-supporto li:hover {
     backdrop-filter: brightness(90%);
