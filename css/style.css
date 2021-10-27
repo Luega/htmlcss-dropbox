@@ -384,7 +384,6 @@ nav li:hover {
     content: "";
     display: block;
     padding-bottom: 77%;
-    background-color: rgb(245,245,245);
 }
 .customers .customer {
     width: 50%;
