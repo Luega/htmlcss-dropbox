@@ -364,21 +364,32 @@ nav li:hover {
 /* BOX-CUSTOMERS */
 .box-customers {
     width: 100%;
-    height: 400px;
 }
 .box-customers .customers {
     width: 30%;
-    height: 100%;
+    position: relative;
+}
+.box-customers .customers::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
 .box-customers .details-customer {
     width: 40%;
-    height: 100%;
+    position: relative;
+    background-color: rgb(245,245,245);
+    overflow-y: scroll;
+}
+.box-customers .details-customer::after {
+    content: "";
+    display: block;
+    padding-bottom: 77%;
     background-color: rgb(245,245,245);
 }
 .customers .customer {
-    min-width: 50%;
-    min-height: 50%;
-    position: relative;
+    width: 50%;
+    height: 50%;
+    position: absolute;
 }
 .customer img {
     width: 50%;
@@ -391,30 +402,51 @@ nav li:hover {
     transform: translate(-50%, -50%);
 }
 .customer.designit {
+    top: 0;
+    left: 0;
     background-color: rgb(162,211,155);
 }
 .customer.asu {
+    top: 0;
+    right: 0;
     background-color: rgb(97,8,43);
 }
 .customer.uf-florida {
+    bottom: 0;
+    left: 0;
     background-color: rgb(0,147,206);
 }
 .customer.topps {
+    bottom: 0;
+    right: 0;
     background-color: rgb(255,28,28);
 }
 .customer.world-bicycle {
+    top: 0;
+    left: 0;
     background-color: rgb(213,0,31);
 }
 .customer.hearst {
+    top: 0;
+    right: 0;
     background-color: rgb(180,208,231);
 }
 .customer.lonely {
+    bottom: 0;
+    left: 0;
     background-color: rgb(13,36,129);
 }
 .customer.clear-channel {
+    bottom: 0;
+    right: 0;
     background-color: rgb(255,216,48);
 }
 /* MIDDLE-BOX */
+.container-details-customer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 .details-customer .box-logo::after {
     content: "";
     width: 3.5em;
