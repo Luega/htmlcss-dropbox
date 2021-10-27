@@ -88,16 +88,42 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 0 1em;
-    border-bottom: 2px solid white;
 }
 nav a {
     color: black;
     font-weight: 600;
     text-decoration: none;
     vertical-align: middle;
+    padding-bottom: 1.3em;
 }
-nav li:hover {
+nav a:hover {
     border-bottom: 2px solid black;
+}
+.li-supporto {
+    position: relative;
+    cursor: pointer;
+}
+.ul-supporto {
+    width: 300%;
+    line-height: 2em;
+    position: absolute;
+    background-color: white;
+    display: none;
+}
+.ul-supporto ul {
+    list-style: none;
+}
+.ul-supporto li {
+    display: block;
+    margin: 0;
+    padding: 1em;
+}
+.li-supporto:hover .ul-supporto {
+    display: block;
+
+}
+.ul-supporto li:hover {
+    backdrop-filter: brightness(90%);
 }
 /* BUTTON */
 .short-button {
