@@ -505,10 +505,12 @@ nav li:hover {
     border-bottom: 1px solid lightgray;
 }
 .box-question {
+    border-bottom: 1px solid lightgray;
+}
+.question {
     width: 100%;
     height: 4em;
     line-height: 4em;
-    border-bottom: 1px solid lightgray;
 }
 .box-question h5 {
     display: inline-block;
@@ -518,6 +520,23 @@ nav li:hover {
     margin: 0 3em 0 0;
     line-height: 4em;
     vertical-align: middle;
+}
+.box-question .fa-angle-up {
+    display: none;
+}
+.box-question .answer {
+    width: 80%;
+    margin-bottom: 2em;
+    display: none;
+}
+.box-question:hover .answer {
+    display: block;
+}
+.box-question:hover .fa-angle-down {
+    display: none;
+}
+.box-question:hover .fa-angle-up {
+    display: inline-block;
 }
 /* /FAQ */
 /* /MAIN */
@@ -577,3 +596,7 @@ footer .language::before {
     display: block;
 }
 /* /FOOTER */
+/* .box-radio p {
+    font-size: 0.8em;
+    line-height: 1em;
+} */
