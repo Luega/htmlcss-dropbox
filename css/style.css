@@ -506,6 +506,7 @@ nav li:hover {
 }
 .box-question {
     border-bottom: 1px solid lightgray;
+    cursor: pointer;
 }
 .question {
     width: 100%;
